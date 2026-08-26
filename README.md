@@ -19,12 +19,14 @@ For Devs:
 
 to make a verify call to the Cap server:
 cap_verify($cap_token);
-will return the server response as an array
+$cap_token = the token added to the form, to show the browser did the work. Usally $_POST['cap-token'];
+This will return the server response as an array
 
 
-To add captcha to for, use the following function:
+To add captcha to form use the following function:
 
 add_form_validation($hook, $func, $name, $id, $form_selector, $submit_selector, $args = array());
+
 $hook = is the action or filter where the form data is validated
 $func = is the function that is called inorder to complete the validation
 $name = human readable name of the form, seen in the settings menu
