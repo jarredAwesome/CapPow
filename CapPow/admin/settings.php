@@ -1,8 +1,6 @@
 <?php
 //  If accessed directly, abort
-if ( ! defined( 'WPINC' ) ) {
-    die;
-}
+defined( 'ABSPATH' ) || exit;
 
 add_filter( 'woocommerce_get_settings_pages', function ( $settings ) {
 	$settings[] = new class extends WC_Settings_Page {
