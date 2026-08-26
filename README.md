@@ -29,8 +29,13 @@ add_form_validation($hook, $func, $name, $id, $form_selector, $submit_selector, 
 
 $hook = is the action or filter where the form data is validated
 $func = is the function that is called inorder to complete the validation
+
 $name = human readable name of the form, seen in the settings menu
+
 $id   = a unique id for this form.
+
 $form_selector = a jquery selector to identify the form. Must be unique to that form
+
 $submit_selector = a jquery selector to identify the form submit button.
+
 $args = array of additional arguments such as 'num_args' for number of arguments in action hook function, and 'type' to state is the hook belongs to a action or filter.
