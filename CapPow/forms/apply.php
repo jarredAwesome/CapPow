@@ -1,5 +1,7 @@
 <?php
-
+if(!defined( 'WC_ABSPATH' )){
+    exit;
+}
 //enqueue scripts when needed
 add_actions(['wp_enqueue_scripts', 'login_enqueue_scripts'], function(){
     //creates a list of forms to add captacha
