@@ -5,7 +5,7 @@ if(!defined( 'WC_ABSPATH' )){
 //enqueue scripts when needed
 add_actions(['wp_enqueue_scripts', 'login_enqueue_scripts'], function(){
     //creates a list of forms to add captacha
-    //$formsToprotect  = apply_filters('formsToCheck', array());
+    $formsToprotect  = apply_filters('formsToCheck', array());
 
     //see if js is needed, even if form isn't listed above
     $forceWidget     = apply_filters('forceWidget', false);
