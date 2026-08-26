@@ -6,9 +6,7 @@
  * Version: 1.0.1
  */
 
-if(!defined( 'WC_ABSPATH' )){
-    exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 //set all definitions
 require_once('includes/defines.php');
