@@ -1,8 +1,6 @@
 <?php
 
-if(!defined( 'WC_ABSPATH' )){
-    exit;
-}
+defined( 'ABSPATH' ) || exit;
 
 //enqueue scripts when needed
 add_actions(['wp_enqueue_scripts', 'login_enqueue_scripts'], function(){
