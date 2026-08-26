@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: CapPoW! 
- * Description: Woocomerce Plugin to work with tryCap.com
+ * Description: Woocomerce Plugin to work with tryCap.dev
  * Author: Duck
  * Version: 1.0.1
  */
