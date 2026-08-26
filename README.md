@@ -1,4 +1,4 @@
-This is a short plug-in I made for WooCommerce. It allows you to add a PoW captcha to Wordpress and WooCommerce.
+This is a short plug-in I made for WooCommerce. It allows you to add an invisable PoW captcha to Wordpress and WooCommerce.
 
 
 Requirements:
@@ -18,8 +18,11 @@ How to use:
 For Devs:
 
 to make a verify call to the Cap server:
+
 cap_verify($cap_token);
+
 $cap_token = the token added to the form, to show the browser did the work. Usally $_POST['cap-token'];
+
 This will return the server response as an array
 
 
