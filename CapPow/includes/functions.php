@@ -1,4 +1,7 @@
 <?php
+if(!defined( 'WC_ABSPATH' )){
+    exit;
+}
 
 //attach many hooks to one function
 if(!function_exists('add_actions')){
