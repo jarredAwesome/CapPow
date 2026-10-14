@@ -10,7 +10,7 @@ Requirements:
 This only protects Classic Checkout. Un-tested with blocks checkout
 
 How to use:
-1. Install plug-in via wordpress
+1. Install plug-in by putting cappow folder into Woocommerce plugin dir
 2. Goto WooCommerce -> Settings -> CapPow
 3. Insert your Cap credentials and click "save changes"
 4. Select the Forms Tab, and select all the areas you'd like to add protection
